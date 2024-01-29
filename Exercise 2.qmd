@@ -1,0 +1,27 @@
+---
+title: "Lecture Notes"
+format: html
+---
+
+## Reproducible Research
+
+Follow the principle of literate programming - document the *logic* behind the **analysis** and the **code**!
+
+## Coding Options for Code Chunks to Adjust Output in HTML
+
+1 - eval: evaluate the code chunk (if false, just echos the code in the output)       
+2 - echo: include the source code in output   
+3 - output: Include the results of executing the code in the output (true, false,or asis to indicate that the                  output is raw markdown and should not have any of Quarto's standard enclosing markdown)    
+4 - warning: include warnings in output   
+5 - error: include errors in the output (not that this implies that errors executing code will not halt the                   processing of the document)   
+
+## Basic Math Coding
+
+# This Code adds twenty and seven together
+
+```{r}
+20 + 7
+```
+
+
+
